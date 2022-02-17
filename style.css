@@ -1,7 +1,24 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  align-items: center;
+    background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
 }
-canvas {
-  display: block;
+
+h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 3rem;
 }
+
+
+footer{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
